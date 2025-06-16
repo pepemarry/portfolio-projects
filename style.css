@@ -11,6 +11,10 @@ h1 {
 p {
   max-width: 600px;
   color: #666;
+  border: 1px solid black;
+  border-radius:5px;
+  
+  text-align: center;
   }
   h2 {
   color: #444;
@@ -18,9 +22,26 @@ p {
 }
 
 ul {
+    font-size: 16px;
   list-style-type: square;
   color: #555;
   max-width: 600px;
   margin: 0 auto;
   padding: 0;
+  
+  
+  box-shadow: 0 8px 16px rgba(0,0,0, 0.2);
+  transition: all 0.3s;
+  }
+  ul:hover{
+   transition:all 0.3s;
+    color: rgb(3, 48, 48);
+  }
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
